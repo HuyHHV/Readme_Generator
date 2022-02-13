@@ -89,21 +89,21 @@ ${data.description}
 2. [Usage Information](#usage)
 3. [License](#license)
 4. [Contribution](#contribution)
-5. [Tests](#Tests)
-6. [Contacts](#Contacts)
+5. [Tests](#tests)
+6. [Contacts](#contacts)
 ## Installation
 ${data.installation}
 ## Usage
 ${data.usage}
 ## License
 license for application: ${data.license} ${badge}
-## Contibution
+## Contribution
 ${data.contribution}
 ## Tests
 ${data.tests}
 ## Contacts
-* Github: [GitHub Account](https://github.com/${data.gitHub})
-* Email: [email](mailto:${data.email})
+* Github: [https://github.com/${data.gitHub}](https://github.com/${data.gitHub})
+* Email: ${data.email}
 `
     fs.writeFile(fileName, readMe, (err) =>
         err ? console.log(err) : console.log('Success!'))
